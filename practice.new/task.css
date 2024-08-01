@@ -1,0 +1,78 @@
+
+.section {
+
+    padding: 150px;
+    position: relative;
+  height: 55vh;
+ 
+  
+}
+#section1{
+  background-image: url(pic\ back.JPG);
+  background-repeat: no-repeat;
+ 
+}
+#section3{
+  background-image: url(donetask.png);
+}
+  
+.section h2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  input{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+   top: 40%;
+   
+  }
+  #one{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 6%;
+    height: 5.5%;
+    color: rgb(252, 251, 248);
+    background-color: brown;
+    border-radius: 12px;
+    bottom: 40%;
+    text-transform: uppercase;
+    font-weight: 50px;
+    
+
+  }
+  #two{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 6%;
+    height: 5.5%;
+    color: rgb(252, 251, 248);
+    background-color: brown;
+    border-radius: 12px;
+    bottom: 40%;
+    text-transform: uppercase;
+  }
+  #three{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 6%;
+    height: 5.5%;
+    color: rgb(252, 251, 248);
+    background-color: brown;
+    border-radius: 12px;
+    bottom: 40%;
+    text-transform: uppercase;
+  }

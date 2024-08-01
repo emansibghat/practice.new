@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+body {
+    background: rgba(8, 13, 51, 1);
+    color: #fff;
+    font-family: 'Montserrat', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+
+.header-text {
+    font-family: 'Playfair Display', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight: 700; 
+    font-size: 70px;
+    line-height: 1.2;
+    white-space: nowrap;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    color: #FFD700;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgb(248, 248, 251);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #121111;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    color: rgb(170, 20, 20);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+#big {
+    height: 55vh;
+}
+
+#small {
+    height: 18vh;
+    position: absolute;
+    right: 20px;
+    top: 65px;
+}
+
+#line {
+    width: 100%;
+    height: 190px;
+    margin-top: 50px;
+}
+
+h4 {
+    color: rgb(253, 255, 255);
+    position: absolute;
+    right: 20px;
+    top: calc(65px + 18vh + 10px); /* Positioned below the small image */
+    text-align: center;
+    width: 18vh; /* Match the width of the small image */
+}
+#click {
+    font-family: 'Playfair Display', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    width: 18vh;
+    margin-top: 28%;
+    padding: 10px 15px;
+    background-color: #FFD700; /* Golden color */
+    color: #000; /* Black text for contrast */
+    border: 2px solid #DAA520; /* Darker gold for border */
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#click:hover {
+    background-color: #DAA520; /* Darker gold on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+#click:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.icon-link {
+    color: #1DA1F2; /* Twitter blue color */
+    font-size: 24px; /* Adjust size as needed */
+    transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #0d8ed9; /* Darker blue on hover */
+}
+
+nav ul li .icon-link::after {
+    display: none; /* Remove the underline effect for icon links */
+}
+#new{
+    color: #141413;
+    background-color: #FFD700;
+    width: 10vh;
+    border-radius: 25px;
+}
+#new:hover {
+    background-color: #DAA520; /* Darker gold on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
